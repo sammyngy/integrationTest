@@ -10,7 +10,8 @@ label {
 h1,
 h2,
 h3,
-h4,h5 {
+h4,
+h5 {
   color: #2a3472;
 }
 p {
@@ -28,8 +29,6 @@ h5 {
   padding-bottom: 5%;
 }
 
-
-
 .header-perspective {
   max-height: 700px;
   background-image: url("../Sources/perspective.jpg");
@@ -37,7 +36,7 @@ h5 {
 }
 
 .title-header {
-  background-color: rgb(222,222,220, 0.8) ;
+  background-color: rgb(222, 222, 220, 0.8);
 
   color: #2a3472;
   font-weight: bold;
@@ -47,12 +46,11 @@ h5 {
     width: 60%;
   }
   &.title-bottom {
-    width: 40%;
+    width: 46%;
+
     margin-top: -1.1%;
   }
 }
-
-
 
 .small-icon-btn {
   margin-left: 10%;
@@ -86,7 +84,7 @@ h5 {
   box-shadow: -2px -1px 24px -5px rgba(0, 0, 0, 0.75);
 
   &.btn-discover {
-    width: 73%;
+    width: 86%;
     padding: 2.5% !important;
   }
   &.btn-call {
@@ -101,6 +99,43 @@ h5 {
   }
 }
 
+.informations-center-top {
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.informations-center-bottom {
+  color: #2a3472;
+  font-size: 34px;
+  font-weight: bold;
+  background-color: #03dac5;
+  color: #ffffff;
+  padding: 1%;
+  margin-left: 17%;
+  margin-right: 18%;
+}
+
+.main-form-content {
+  background-color: #03dac5;
+  height: 760px;
+}
+.dot {
+  margin-top: 81%;
+    padding-top: 10;
+    height: 60px;
+    width: 60px;
+    background-color: #2a3472;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 55%;
+    box-shadow: -3px -2px 50px -6px #2a3472;
+
+}
+
+.enveloppe-img{
+  padding-top: 29%;
+    width: 51%;
+}
 .btn-primary-recall {
   background-color: #03dac5;
   border: 1px #03dac5;
@@ -130,6 +165,9 @@ h5 {
   .btn-call {
     margin-right: 0 !important;
     width: 80% !important;
+  }
+  .dot{
+    margin-top: 44%;
   }
   .btn-call-content {
     margin-right: 0 !important;
@@ -168,32 +206,14 @@ h5 {
   }
 }
 
-.informations-center-top {
-  font-size: 34px;
-  font-weight: bold;
-}
-
-.informations-center-bottom {
-  color: #2a3472;
-  font-size: 34px;
-  font-weight: bold;
-  background-color: #03dac5;
-  color: #ffffff;
-  padding: 1%;
-  margin-left: 17%;
-    margin-right: 18%;
-}
-
-.main-form-content {
-  background-color: #03dac5;
-  height: 760px;
-}
 
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  p{
+  p {
     font-size: medium !important;
   }
+
+  .dot{    margin-top: 131%;}
   .information-center {
     margin-bottom: 10%;
   }
@@ -219,7 +239,7 @@ h5 {
   .title-top {
     width: 100% !important;
   }
- 
+
   .informations-center-bottom {
     margin-left: 0 !important;
     margin-right: 0 !important;
@@ -234,5 +254,4 @@ h5 {
     margin-left: 45% !important;
     margin: 3%;
   }
-  
 }
