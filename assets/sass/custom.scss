@@ -28,6 +28,8 @@ h5 {
   padding-bottom: 5%;
 }
 
+
+
 .header-perspective {
   max-height: 700px;
   background-image: url("../Sources/perspective.jpg");
@@ -42,11 +44,11 @@ h5 {
   font-size: 47px;
 
   &.title-top {
-    width: 50%;
+    width: 60%;
   }
   &.title-bottom {
     width: 40%;
-    margin-top: -1%;
+    margin-top: -1.1%;
   }
 }
 
@@ -85,7 +87,7 @@ h5 {
 
   &.btn-discover {
     width: 73%;
-    padding: 2% !important;
+    padding: 2.5% !important;
   }
   &.btn-call {
     margin-right: 50%;
@@ -95,7 +97,7 @@ h5 {
   &.btn-call-content {
     margin-top: 16%;
 
-    width: 57%;
+    width: 67%;
   }
 }
 
@@ -178,8 +180,8 @@ h5 {
   background-color: #03dac5;
   color: #ffffff;
   padding: 1%;
-  margin-left: 22%;
-  margin-right: 22%;
+  margin-left: 17%;
+    margin-right: 18%;
 }
 
 .main-form-content {
