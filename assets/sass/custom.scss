@@ -1,0 +1,236 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+
+html,
+body {
+  font-family: "Open Sans", sans-serif !important;
+}
+label {
+  color: #2a3472 !important;
+}
+h1,
+h2,
+h3,
+h4,h5 {
+  color: #2a3472;
+}
+p {
+  color: #ffffff;
+  font-weight: 100;
+}
+
+h4 {
+  font-size: 22px;
+  font-weight: bold;
+}
+h5 {
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 5%;
+}
+
+.header-perspective {
+  max-height: 700px;
+  background-image: url("../Sources/perspective.jpg");
+  background-position: 25% 75%;
+}
+
+.title-header {
+  background-color: rgb(222,222,220, 0.8) ;
+
+  color: #2a3472;
+  font-weight: bold;
+  font-size: 47px;
+
+  &.title-top {
+    width: 50%;
+  }
+  &.title-bottom {
+    width: 40%;
+    margin-top: -1%;
+  }
+}
+
+
+
+.small-icon-btn {
+  margin-left: 10%;
+  width: 8%;
+}
+.small-icon-content {
+  width: 12%;
+  margin-bottom: 2%;
+}
+
+.small-icon-btn-left {
+  margin-top: 5%;
+  margin-right: 5%;
+  width: 13%;
+}
+.informations {
+  padding-bottom: 15%;
+}
+
+.btn-primary:hover {
+  background-color: #2a3472;
+}
+
+.btn-primary {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 24px;
+  background-color: #2a3472;
+  border: 1px #2a3472;
+  padding: 1%;
+  box-shadow: -2px -1px 24px -5px rgba(0, 0, 0, 0.75);
+
+  &.btn-discover {
+    width: 73%;
+    padding: 2% !important;
+  }
+  &.btn-call {
+    margin-right: 50%;
+
+    width: 57%;
+  }
+  &.btn-call-content {
+    margin-top: 16%;
+
+    width: 57%;
+  }
+}
+
+.btn-primary-recall {
+  background-color: #03dac5;
+  border: 1px #03dac5;
+  padding: 3%;
+  width: 62%;
+  box-shadow: -2px -1px 24px -5px rgba(0, 0, 0, 0.75);
+  color: #ffffff;
+  font-size: 24px;
+  margin-left: 38%;
+}
+
+.form-style {
+  background-color: white;
+  position: relative;
+  z-index: 1;
+  margin-top: -147px;
+  box-shadow: -2px -1px 24px -5px rgba(0, 0, 0, 0.75);
+  margin-bottom: 10%;
+  padding-top: 12% !important;
+  padding-bottom: 5% !important;
+  padding-left: 8% !important;
+  padding-right: 8% !important;
+  border-radius: 0% 0% 0% 8%;
+}
+
+@media screen and (min-width: 200px) and (max-width: 640px) {
+  .btn-call {
+    margin-right: 0 !important;
+    width: 80% !important;
+  }
+  .btn-call-content {
+    margin-right: 0 !important;
+    width: 80% !important;
+  }
+
+  .btn-primary-recall {
+    margin-bottom: 2% !important;
+
+    margin-left: 0;
+  }
+  .title-bottom {
+    margin-top: -2.5% !important;
+    width: 100% !important;
+  }
+  .title-top {
+    width: 100% !important;
+  }
+
+  .information-center {
+    margin-bottom: 50%;
+  }
+  .informations-center-bottom {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  .btn-primary-call {
+    width: 65%;
+  }
+  .main-form-content {
+    height: 100% !important;
+  }
+  .small-icon-content {
+    margin-left: 45% !important;
+    margin: 3%;
+  }
+}
+
+.informations-center-top {
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.informations-center-bottom {
+  color: #2a3472;
+  font-size: 34px;
+  font-weight: bold;
+  background-color: #03dac5;
+  color: #ffffff;
+  padding: 1%;
+  margin-left: 22%;
+  margin-right: 22%;
+}
+
+.main-form-content {
+  background-color: #03dac5;
+  height: 760px;
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  p{
+    font-size: medium !important;
+  }
+  .information-center {
+    margin-bottom: 10%;
+  }
+  .btn-call {
+    margin-right: 0 !important;
+    width: 100% !important;
+  }
+  .btn-call-content {
+    margin-right: 0 !important;
+    width: 100% !important;
+  }
+
+  .btn-primary-recall {
+    margin-bottom: 2% !important;
+    width: 90%;
+    margin-left: 0;
+  }
+  .title-bottom {
+    margin-top: -2.5% !important;
+
+    width: 100% !important;
+  }
+  .title-top {
+    width: 100% !important;
+  }
+ 
+  .informations-center-bottom {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  .btn-primary-call {
+    width: 65%;
+  }
+  .main-form-content {
+    height: 100% !important;
+  }
+  .small-icon-content {
+    margin-left: 45% !important;
+    margin: 3%;
+  }
+  
+}
